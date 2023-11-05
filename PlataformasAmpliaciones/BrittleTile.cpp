@@ -13,8 +13,7 @@ bool BrittleTile::isOverlap(Actor* actor) {
 	bool overlap = false;
 	if (actor->x   <= x + width / 2
 		&& actor->x  >= x - width / 2
-		&& actor->y + actor->height / 2 == y - height/2 //Solo si está encima
-		 
+		&& actor->y + actor->height / 2 == y - height/2 //Solo si está encima	 
 		) {
  		overlap = true;
 	}

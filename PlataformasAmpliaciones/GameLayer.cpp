@@ -52,7 +52,7 @@ void GameLayer::init() {
 	collectables.clear();//Ampliación-Recolectables.
 	checkpoints.clear();//Ampliación checkpoints
 	brittleTiles.clear();//Ampliación - Tiles frágiles al estar encima
-
+	fragileTiles.clear();//Ampliación - Tiles destructibles al disparar
 	loadMap("res/" + to_string(game->currentLevel) + ".txt");
 }
 
@@ -142,6 +142,14 @@ void GameLayer::loadMapObject(char character, float x, float y)
 	case 'W': {
 		BrittleTile* tile = new BrittleTile("res/bloque_fondo_muro.png",10, x, y, game);
 		brittleTiles.push_back(tile);
+		tile->y = tile->y - tile->height / 2;
+		space->addStaticActor(tile);
+		break;
+	}
+	//Ampliación - Tiles destructibles mediante disparos
+	case 'U': {
+		FragileTile* tile = new FragileTile("res/bloque_metal.png", 2, x, y, game);
+		fragileTiles.push_back(tile);
 		tile->y = tile->y - tile->height / 2;
 		space->addStaticActor(tile);
 		break;
@@ -329,6 +337,7 @@ void GameLayer::update() {
 			}
 		}
 	
+
  
 	// Colisiones , Enemy - Projectile
 
@@ -346,7 +355,26 @@ void GameLayer::update() {
 			}
 		}
 	}
+	//Ampliación - Tiles frágiles al disparo
+	list<FragileTile*> deleteFtiles;
+	for (auto const& fTile : fragileTiles) {
+		for (auto const& projectile : projectiles) {
+			bool fInList = std::find(deleteFtiles.begin(),
+				deleteFtiles.end(),
+				fTile) != deleteFtiles.end();
+			 
 
+			if (projectile->isOverlap(fTile)) {
+				if (!fInList && fTile->shotsLeft == 0) {
+					deleteFtiles.push_back(fTile);
+				}
+				else {
+					fTile->shotsLeft--;
+				}
+			}
+
+		}
+	}
 
 	for (auto const& enemy : enemies) {
 		for (auto const& projectile : projectiles) {
@@ -383,11 +411,18 @@ void GameLayer::update() {
 	}
 	//Ampliación - Tiles frágiles al peso 
 	for (auto const& deltile : deleteBtiles) {
-		cout << "HOLA";
+	 
 		brittleTiles.remove(deltile);
 		space->removeStaticActor(deltile);
 	}
 	deleteBtiles.clear();
+	//Ampliación - Tiles frágiles al disparo
+	for (auto const& fTile : deleteFtiles) {
+		fragileTiles.remove(fTile);
+		space->removeStaticActor(fTile);
+	}
+
+	deleteFtiles.clear();
 	//Ampliación-Recolectables
 	for (auto const& delCollect : deleteCollectables) {
 		collectables.remove(delCollect);
@@ -466,6 +501,10 @@ void GameLayer::draw() {
 	//Ampliación- Tiles frágiles
 	for (auto const& btile : brittleTiles) {
 		btile->draw(scrollX, scrollY);
+	}
+	//Ampliación- Tiles frágiles al disparo
+	for (auto const& ftile : fragileTiles) {
+		ftile->draw(scrollX, scrollY);
 	}
 	//Ampliación- Recolectables 
 	for (auto const& collectable : collectables) {

@@ -12,6 +12,7 @@
 #include "Collectable.h"
 #include "CheckPoint.h"
 #include "BrittleTile.h"
+#include "FragileTile.h"
 #include "Audio.h"
 #include "Space.h" // importar
 
@@ -62,6 +63,7 @@ public:
 	Actor* backgroundCollectables;//Ampliación - Recolectables
 	list<CheckPoint*> checkpoints;//Ampliación-puntos de guardado
 	list<BrittleTile*> brittleTiles;//Ampliación- Tiles frágiles ( destruidas al estar encima)
+	list< FragileTile*> fragileTiles;//Ampliación- Tiles frágiles ( destruidas al disparar)
 	list<Enemy*> enemies;
 	list<Projectile*> projectiles;
 

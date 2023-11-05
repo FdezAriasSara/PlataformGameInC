@@ -150,7 +150,7 @@
       <Filter>Archivos de encabezado\actores\tile</Filter>
     </ClInclude>
     <ClInclude Include="FragileTile.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\actores\tile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
