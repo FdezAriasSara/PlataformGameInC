@@ -1,0 +1,38 @@
+﻿  GameLayer.cpp
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\Audio.h(8,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(19,72): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(30,50): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(30,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(37,56): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(37,41): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(48,24): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(48,9): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(76,13): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(77,13): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(107,37): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(107,24): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(427,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(434,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(442,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(449,24): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(554,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(554,26): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(557,39): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(559,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(559,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(562,42): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(562,33): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(569,51): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(569,42): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(570,39): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(581,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(581,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(584,42): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(584,33): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(591,35): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(591,26): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(597,43): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(597,34): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(600,42): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\PlataformasAmpliaciones\GameLayer.cpp(600,33): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  NavesL4.vcxproj -> C:\Users\Sara\Desktop\Universidad\Videojuegos\Plataformas\Debug\PlataformasAmpliaciones.exe
